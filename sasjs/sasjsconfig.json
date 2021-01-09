@@ -1,10 +1,11 @@
 {
- "cmnMacros": [
-  "macros"
- ],
- "cmnServices": [
-  "services/common"
- ],
- "useMacroCore": true,
+  "macroFolders": [
+    "macros"
+  ],
+ "serviceConfig": {
+  "serviceFolders": [
+   "services/common"
+  ]
+ },
  "targets": []
 }
