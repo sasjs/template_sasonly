@@ -1,10 +1,12 @@
 {
-  "macroFolders": ["macros"],
-  "serviceConfig": {
-    "serviceFolders": ["services/common"],
-    "initProgram": "",
-    "termProgram": "",
-    "macroVars": {}
-  },
-  "targets": []
+  "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
+  "macroFolders": [
+    "sasjs/macros"
+  ],
+ "serviceConfig": {
+  "serviceFolders": [
+   "sasjs/services/common"
+  ]
+ },
+ "targets": []
 }
